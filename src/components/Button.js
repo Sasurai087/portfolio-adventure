@@ -22,7 +22,7 @@ export const Button = ({
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0] //defaults to btn--medium
 
     return (
-      <Link to='/boom' className='btn-mobile'>
+      <Link to='/portfolio' className='btn-mobile'>
         <button
           className={`btn ${checkButtonStyle} ${checkButtonSize}`}
           onClick={onClick}
