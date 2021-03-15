@@ -58,7 +58,7 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-          {/* {button && <Button buttonStyle='btn--outline' >?</Button>} */}
+          {button && <Button buttonStyle='btn--outline' >?</Button>}
         </div>
       </nav>
     </>

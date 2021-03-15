@@ -6,7 +6,8 @@ import './HeroSection.css'
 function HeroSection () {
   return (
     <div className='hero-container'>
-      <h1>Hi there! I'm <span>James Ohsako</span>, <br /> a front-end web developer.</h1>
+      <video src='/videos/video-1.mp4' autoPlay loop muted playbackRate='0.1' />
+      <h1><span>James Ohsako</span> <br /> Front-end web developer</h1>
       <div className='hero-btns'>
         <Button 
           className='btns' 
