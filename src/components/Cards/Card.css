@@ -1,20 +1,27 @@
 .cards {
+  display: flex;
+  flex-direction: column;
   padding: 4rem;
   background: #fff;
+  height: 90vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
-h1 {
+.cards h1 {
+  margin-top: 3rem;
   color: #444649;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 35pt;
+  font-size: 5rem;
   text-align: center;
+  margin-bottom: 3rem;
 }
 
 .cards__container {
   display: flex;
   flex-flow: column;
   align-items: center;
-  max-width: 1120px;
   width: 90%;
   margin: 0 auto;
 }

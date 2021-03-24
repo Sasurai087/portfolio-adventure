@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import { Link } from 'react-router-dom'
-import { Button } from '../Button'
+import { Link } from 'react-scroll'
 import './Navbar.css';
 
 
@@ -38,27 +37,27 @@ const Navbar = () => {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='section1' spy={true} smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
-                About
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link to='/portfolio' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='section2' spy={true} smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
                 Portfolio
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='section3' spy={true} smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
+                About
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link to='section4' spy={true} smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
                 Contact
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline' >?</Button>}
+          {button}
         </div>
       </nav>
     </>
