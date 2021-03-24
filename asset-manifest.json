@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio-adventure/static/css/main.843418d2.chunk.css",
+    "main.js": "/portfolio-adventure/static/js/main.91ba4eab.chunk.js",
+    "main.js.map": "/portfolio-adventure/static/js/main.91ba4eab.chunk.js.map",
+    "runtime-main.js": "/portfolio-adventure/static/js/runtime-main.a61f843c.js",
+    "runtime-main.js.map": "/portfolio-adventure/static/js/runtime-main.a61f843c.js.map",
+    "static/js/2.954f759d.chunk.js": "/portfolio-adventure/static/js/2.954f759d.chunk.js",
+    "static/js/2.954f759d.chunk.js.map": "/portfolio-adventure/static/js/2.954f759d.chunk.js.map",
+    "index.html": "/portfolio-adventure/index.html",
+    "static/css/main.843418d2.chunk.css.map": "/portfolio-adventure/static/css/main.843418d2.chunk.css.map",
+    "static/js/2.954f759d.chunk.js.LICENSE.txt": "/portfolio-adventure/static/js/2.954f759d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a61f843c.js",
+    "static/js/2.954f759d.chunk.js",
+    "static/css/main.843418d2.chunk.css",
+    "static/js/main.91ba4eab.chunk.js"
+  ]
+}
