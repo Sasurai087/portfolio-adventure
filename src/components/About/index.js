@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-scroll'
 import './About.css'
+import Profile from '../../images/profile.png'
 
 const About = (props) => {
   return (
@@ -22,58 +23,31 @@ const About = (props) => {
 
             <div className='about-points flex'>
               <i class="fas fa-mobile-alt" />
-              <div class='bold'>Accessible</div>
-              <p>My projects are built with desktop and mobile in mind.</p>
+              <div class='bold'>Efficient</div>
+              <p></p>
             </div>
           </div>
           <div className='bar'></div>
+
+          <h1>Skills</h1>
+          <div className='about-info flex row'>
+                  <i class="fab fa-react fa-5x"/>
+                  <i class="fab fa-js-square" /> 
+                  <i class="fab fa-html5"/>
+                  <i class="fab fa-css3"/>
+                  <i class="fab fa-github"/>
+                  <i class="fab fa-node" />
+                  <i class="fab fa-bootstrap"/>
+                  <i class="fab fa-python"/>
+          </div>
+
+
           <div className='about-info flex row'>
             <div className='about-skills row'>
-              <h1>Skills</h1>
-                <div className='about-icons'>
-                    <i class="fab fa-react fa-5x"/> 
-                    <span>React</span>
-                </div>
-                <div className='about-icons'>
-                  <i class="fab fa-js-square" /> 
-                  <span>Javascript</span>
-                </div>
-
-                <div className='about-icons'>
-                  <i class="fab fa-html5"/>
-                  <span>HTML</span>
-                </div>
-
-                <div className='about-icons'>
-                <i class="fab fa-css3"/>
-                <span>CSS</span>
-                </div>
-
-
-                <div className='about-icons'>
-                  <i class="fab fa-github"/>
-                  <span>Github</span>
-                </div>
-
-
-                <div className='about-icons'>
-                  <i class="fab fa-node" />
-                  <span>Node</span>
-                </div>
-
-                <div className='about-icons'>
-                  <i class="fab fa-bootstrap"/>
-                  <span>Bootstrap4</span>
-                </div>
-
-                <div className='about-icons'>
-                  <i class="fab fa-python"/>
-                  <span>Python</span>
-                </div>
-              </div>
+              
 
               <div className='about-bio'>
-                <img src='../images/profile.png' alt='hyper-squirrel' />
+                <img src={Profile} alt='hyper-squirrel' />
                 <p>Hi there! <br />
                   I'm James, a self-taught front-end developer who's dabbled in sales, restaurant server, and tech support roles. Whether it be in my personal or professional life, I aim to create positive win-win experiences for all.<br />
                   <br />
@@ -86,6 +60,7 @@ const About = (props) => {
                     <span className='about-highlight'> send me a message!</span>
                   </Link>
                 </p>
+              </div>
             </div>
           </div>
     
@@ -97,27 +72,46 @@ const About = (props) => {
 
 export default About
 
-{/* <img src='../images/icon-intuitive.png' />
-<img src='../images/icon-accessible.png' />
-<img src='../images/icon-concise.png' /> */}
+//Previous skills section
+    // {/* <h1>Skills</h1>
+    //   <div className='about-icons'>
+    //       <i class="fab fa-react fa-5x"/> 
+    //       <span>React</span>
+    //   </div>
+    //   <div className='about-icons'>
+    //     <i class="fab fa-js-square" /> 
+    //     <span>Javascript</span>
+    //   </div>
 
-{/* <CardItem
-src="../images/icon-intuitive.png"
-text="Intuitive"
-subtext="Delivering a user-friendly experience is my priority."
+    //   <div className='about-icons'>
+    //     <i class="fab fa-html5"/>
+    //     <span>HTML</span>
+    //   </div>
 
-/>
+    //   <div className='about-icons'>
+    //   <i class="fab fa-css3"/>
+    //   <span>CSS</span>
+    //   </div>
 
-<CardItem
-src="../images/icon-accessible.png"
-text="Accessible"
-subtext="My projects are built with desktop and mobile in mind."
 
-/>
+    //   <div className='about-icons'>
+    //     <i class="fab fa-github"/>
+    //     <span>Github</span>
+    //   </div>
 
-<CardItem
-src="../images/icon-concise.png"
-text="Concise"
-subtext="I strive to be clear and efficient, both in my communication and in my creations."
 
-/> */}
+    //   <div className='about-icons'>
+    //     <i class="fab fa-node" />
+    //     <span>Node</span>
+    //   </div>
+
+    //   <div className='about-icons'>
+    //     <i class="fab fa-bootstrap"/>
+    //     <span>Bootstrap4</span>
+    //   </div>
+
+    //   <div className='about-icons'>
+    //     <i class="fab fa-python"/>
+    //     <span>Python</span>
+    //   </div>
+    //   </div> */}

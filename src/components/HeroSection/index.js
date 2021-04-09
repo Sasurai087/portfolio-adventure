@@ -3,12 +3,12 @@ import { Link } from 'react-scroll'
 import '../../App.css'
 import {Button} from '../Button'
 import './HeroSection.css'
-
+import Video from '../../videos/video-1.mp4'
 
 function HeroSection () {
   return (
       <div id='section1' className='hero-container'>
-        <video src='/videos/video-1.mp4' autoPlay loop muted playbackRate='0.1' />
+        <video src={Video} autoPlay loop muted playbackRate='0.1' />
         <h1>James Ohsako</h1>
         <p>Front-end web developer</p>
         <div className='hero-btns'>
