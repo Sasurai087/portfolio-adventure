@@ -1,20 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio-adventure/static/css/main.843418d2.chunk.css",
-    "main.js": "/portfolio-adventure/static/js/main.91ba4eab.chunk.js",
-    "main.js.map": "/portfolio-adventure/static/js/main.91ba4eab.chunk.js.map",
+    "main.css": "/portfolio-adventure/static/css/main.d472fcc2.chunk.css",
+    "main.js": "/portfolio-adventure/static/js/main.e07f1d4a.chunk.js",
+    "main.js.map": "/portfolio-adventure/static/js/main.e07f1d4a.chunk.js.map",
     "runtime-main.js": "/portfolio-adventure/static/js/runtime-main.a61f843c.js",
     "runtime-main.js.map": "/portfolio-adventure/static/js/runtime-main.a61f843c.js.map",
-    "static/js/2.954f759d.chunk.js": "/portfolio-adventure/static/js/2.954f759d.chunk.js",
-    "static/js/2.954f759d.chunk.js.map": "/portfolio-adventure/static/js/2.954f759d.chunk.js.map",
+    "static/js/2.8e5d9e1e.chunk.js": "/portfolio-adventure/static/js/2.8e5d9e1e.chunk.js",
+    "static/js/2.8e5d9e1e.chunk.js.map": "/portfolio-adventure/static/js/2.8e5d9e1e.chunk.js.map",
     "index.html": "/portfolio-adventure/index.html",
-    "static/css/main.843418d2.chunk.css.map": "/portfolio-adventure/static/css/main.843418d2.chunk.css.map",
-    "static/js/2.954f759d.chunk.js.LICENSE.txt": "/portfolio-adventure/static/js/2.954f759d.chunk.js.LICENSE.txt"
+    "static/css/main.d472fcc2.chunk.css.map": "/portfolio-adventure/static/css/main.d472fcc2.chunk.css.map",
+    "static/js/2.8e5d9e1e.chunk.js.LICENSE.txt": "/portfolio-adventure/static/js/2.8e5d9e1e.chunk.js.LICENSE.txt",
+    "static/media/prj-color.3122ab60.jpg": "/portfolio-adventure/static/media/prj-color.3122ab60.jpg",
+    "static/media/prj-dadjokes.7479d49b.jpg": "/portfolio-adventure/static/media/prj-dadjokes.7479d49b.jpg",
+    "static/media/prj-dice3.78063012.jpg": "/portfolio-adventure/static/media/prj-dice3.78063012.jpg",
+    "static/media/prj-forkify.9952365f.jpg": "/portfolio-adventure/static/media/prj-forkify.9952365f.jpg",
+    "static/media/prj-movie.0527069f.jpg": "/portfolio-adventure/static/media/prj-movie.0527069f.jpg",
+    "static/media/profile.563ab49e.png": "/portfolio-adventure/static/media/profile.563ab49e.png",
+    "static/media/video-1.59e75226.mp4": "/portfolio-adventure/static/media/video-1.59e75226.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.a61f843c.js",
-    "static/js/2.954f759d.chunk.js",
-    "static/css/main.843418d2.chunk.css",
-    "static/js/main.91ba4eab.chunk.js"
+    "static/js/2.8e5d9e1e.chunk.js",
+    "static/css/main.d472fcc2.chunk.css",
+    "static/js/main.e07f1d4a.chunk.js"
   ]
 }
