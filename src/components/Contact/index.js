@@ -81,10 +81,6 @@ const Contact = (props) => {
         </form>
         
         <p className='form-p'>Thank you for stopping by!</p>
-
-          <div>
-            Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-          </div>
       </div>
     </div>
     

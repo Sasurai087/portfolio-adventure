@@ -25,7 +25,7 @@ export const NavbarContainer = styled.div`
 export const NavbarLogo = styled(Link)`
   color: #fff;
   justify-self: start;
-  margin-left: 20px;
+  margin-left: 10px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
