@@ -3,7 +3,7 @@ import './App.css';
 import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Cards from './components/Cards';
+import Projects from './components/Projects';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -19,7 +19,7 @@ function App() {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <Hero />
-      {/* <Cards /> */}
+      <Projects />
       {/* <About /> */}
       <Contact />
       <Footer />

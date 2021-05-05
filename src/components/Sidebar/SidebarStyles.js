@@ -16,11 +16,11 @@ export const SidebarContainer = styled.aside`
 
   //styled-component will detect if variable 'isOpen' is true or not, and apply CSS changes accordingly
   opacity: ${({isOpen}) => (isOpen ? '100%' : '0') };
-  top: ${({isOpen}) => (isOpen ? '0' : '-100%')}
+  top: ${({isOpen}) => (isOpen ? '0' : '-100%')};
 `;
 
 export const CloseIcon = styled(Times)`
-  color: #fff
+  color: #fff;
 `;
 
 export const Icon = styled.div`
@@ -45,7 +45,7 @@ export const SidebarMenu = styled.ul`
 `;
 
 export const SidebarWrapper = styled.div`
-  color: #fff
+  color: #fff;
 `;
 
 export const SidebarLink = styled(LinkS)`

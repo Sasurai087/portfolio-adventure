@@ -1,41 +1,21 @@
-import React from 'react';
-import './Button.css';
-import {Link} from 'react-scroll'
+import styled from 'styled-components';
+import {Link} from 'react-scroll';
 
-
-// check DOCS on this method later
-const STYLES = ['btn--primary', 'btn--outline']
-
-const SIZES = ['btn--medium', 'btn--large']
-
-export const Button = ({
-  children, 
-  type, 
-  onClick, 
-  buttonStyle, 
-  buttonSize
-}) => {
-  const checkButtonStyle = STYLES.includes(buttonStyle) ? 
-    buttonStyle 
-    : STYLES[0];
-
-    const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0] //defaults to btn--medium
-
-    return (
-      <Link to='/portfolio' className='btn-mobile'>
-        <button
-          className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-          onClick={onClick}
-          type={type}
-        > 
-          {children}
-          <div>
-          </div>
-        </button>
-
-
-      </Link>
-    )
-
-
-};
+export const Button = styled(Link)`
+  background:transparent;
+  padding: 12px 30px;
+  outline: #1c1b1b solid 0.1rem;
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s ease-in-out;
+  &:hover {
+    transition: all 0.4s ease-in-out;
+    background: white;
+    color: black;
+  }
+`

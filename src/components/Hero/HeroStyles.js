@@ -8,8 +8,8 @@ export const HeroStyled = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
   object-fit: contain;
+  background-color: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
 `;
 
 export const HeroVideo = styled.video`
