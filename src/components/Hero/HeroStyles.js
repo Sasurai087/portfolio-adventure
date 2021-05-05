@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import {ArrowRight} from '@styled-icons/fa-solid/ArrowRight';
 
-export const HeroStyled = styled.div`
+export const HeroStyled = styled.section`
   height: 100vh;
   width: 100%;
   display: flex;
@@ -9,13 +9,10 @@ export const HeroStyled = styled.div`
   justify-content: center;
   align-items: center;
   object-fit: contain;
-  background-color: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
 `;
 
 export const HeroVideo = styled.video`
   object-fit: cover;
-  width: 100%;
-  height: 100%;
   position: fixed;
   z-index: -1;
 `

@@ -5,12 +5,12 @@ export const FooterContainer = styled.footer`
 `;
 
 export const FooterWrap = styled.div`
-  padding-bottom: 20px;
+  padding-bottom: 1.3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 1100px;
+  max-width: 68rem;
   margin: 0 auto;
 `;
 
@@ -19,7 +19,7 @@ export const FooterLinksContainer = styled.div`
   justify-content: center;
 
   @media screen and (max-width: 768px) {
-    padding-top: 32px;
+    padding-top: 2rem;
   }
 `;  
 
@@ -35,30 +35,30 @@ export const FooterLinkItems = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 16px;
+  margin: 1rem;
   text-align: left;
-  width: 160px;
+  width: 10rem;
   box-sizing: border-box;
   color: #fff;
 
   @media screen and (max-width: 480px) {
    margin: 0;
-   padding: 10px;
+   padding: 0.625rem;
    width: 100%;
   }
 `;
 
 
 export const FooterLinkTitle = styled.h1`
-  font-size: 14px;
-  margin-bottom: 16px;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
 `;
 
 export const FooterLink = styled.p`
   color: #fff;
   text-decoration: none;
   margin-bottom: 0.5rem;
-  font-size: 14px;
+  font-size: 0.875rem;
 
   &:hover {
     color: #01bf71;
@@ -67,17 +67,16 @@ export const FooterLink = styled.p`
 `;
 
 export const SocialMedia = styled.section`
-  max-width: 1000px;
+  max-width: 62.5rem;
   width: 100%;
-
 `;
 
 export const SocialMediaWrap = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1100px;
-  margin: 40px auto 0 auto;
+  max-width: 68.75rem;
+  margin: 2.5rem auto 0 auto;
 
   @media screen and (max-width: 768px) {
    flex-direction: column;
@@ -92,13 +91,14 @@ export const SocialLogo = styled.li`
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
   font-weight: bold;
 `;
 
 export const WebsiteRights = styled.small`
   color: #fff;
-  margin-bottom: 16px;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
 `;
 
 export const SocialIcons = styled.div`

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {Link} from 'react-scroll';
 
 //CSS for Projects page (see below for individual items)
-export const ProjectsStyled = styled.div`
+export const ProjectsStyled = styled.section`
   padding: 3rem;
   background: #fff;
 `;
@@ -10,7 +10,7 @@ export const ProjectsStyled = styled.div`
 export const ProjectsH1 = styled.h1`
   margin-top: 3rem;
   color: #444649;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS','Lucida Sans Unicode','Lucida Grande','Lucida Sans',Arial,sans-serif;
   font-size: 4rem;
   text-align: center;
   margin-bottom: 3rem;

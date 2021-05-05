@@ -43,9 +43,9 @@ const Contact = (props) => {
   const messageCharsLeft = 1500 - message.length;
 
   return (
-    <div id='section4' className='contact'>
+    <section id='section4' className='contact'>
       <h1>CONTACT</h1>
-      <p className='form-p'>Feel free to say Hi!</p>
+      <p className='form-p'>Feel free to say Hi</p>
       <div className="form-container">
         <p className='status-message'>{statusMessage}</p>
         <form id='contact-form' onSubmit={handleSubmit(onSubmit)}>
@@ -82,7 +82,7 @@ const Contact = (props) => {
         
         <p className='form-p'>Thank you for stopping by!</p>
       </div>
-    </div>
+    </section>
     
 
   )

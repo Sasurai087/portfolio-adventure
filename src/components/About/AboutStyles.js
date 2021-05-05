@@ -11,22 +11,23 @@ export const AboutStyled = styled.section`
 `;
 
 export const AboutH1 = styled.h1`
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-top: 3rem;
+  color: #444649;
+  font-family: 'Trebuchet MS','Lucida Sans Unicode','Lucida Grande','Lucida Sans',Arial,sans-serif;
   font-size: 4rem;
   text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 `;
 
 export const AboutContainer = styled.div`
   width: 100%;
   justify-content: center;
-  max-width: 1200px;
+  max-width: 75rem;
   margin: 0 auto;
   display: grid;
   align-items: center;
-  gap: 16px;
-  padding: 0px 50px;
+  gap: 1rem;
+  padding: 0rem 3.125rem;
 `;
 
 //VALUES SECTION
@@ -39,11 +40,11 @@ export const ValuesH1 = styled.h1`
 `;
 
 export const ValuesWrapper = styled.div`
-  max-width: 1000px;
+  max-width: 62.5rem;
   margin: 0 auto;
   display: grid;
   align-items: center;
-  grid-gap: 16px;
+  grid-gap: 1rem;
 
   /* Items separated into 3 columns */
   grid-template-columns: 1fr 1fr 1fr;
@@ -56,7 +57,7 @@ export const ValuesWrapper = styled.div`
   /* Only 1 item showing on smaller screens */
   @media screen and (max-width: 480px) {
     grid-template-columns: 1fr;
-    padding: 0 20px;
+    padding: 0 1.25rem;
   }
 `;
 
@@ -65,17 +66,17 @@ export const ValuesCard = styled.div`
   flex-direction: column;
   -webkit-box-align: center;
   align-items: center;
-  padding: 30px;
-  height: 250px;
+  padding: 1.875rem;
+  height: 15.625rem;
 
   @media screen and (max-width: 480px) {
-    height: 170px;
+    height: 10.625rem;
   }
 `
 
 export const ValuesH2 = styled.h2`
   font-size: 2rem;
-  height: 80px;
+  height: 5rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   color: rgb(27, 139, 184);
 
@@ -96,7 +97,7 @@ export const ValuesP = styled.p`
 export const AboutDivider = styled.div`
   background: rgb(68, 70, 73);
   opacity: 0.5;
-  height: 4px;
+  height: 0.25rem;
   border-radius: 3rem;
   margin-bottom: 1.3rem;
 `
@@ -104,13 +105,14 @@ export const AboutDivider = styled.div`
 //BIO SECTION
 export const BioWrapper = styled.div`
   width: 100%;
-  max-width: 1200px;
+  max-width: 75rem;
   margin: 0px auto;
   display: flex;
   flex-direction: row;
   -webkit-box-align: center;
   align-items: center;
-  gap: 16px;
+  gap: 1rem;
+  padding-bottom: 3rem;
 
   @media screen and (max-width: 768px) {
     display: grid;
@@ -120,7 +122,7 @@ export const BioWrapper = styled.div`
   }
 `
 export const BioImage = styled.img`
-  border: 5px solid rgba(0, 255, 234, 0.575);
+  border: 0.3125rem solid rgba(0, 255, 234, 0.575);
   border-radius: 5rem;
   width: 24rem;
   @media screen and (max-width: 768px) {
@@ -157,13 +159,13 @@ export const SkillsIcons = styled.div`
   -webkit-box-pack: center;
   justify-content: center;
   display: grid;
-  margin-top: 20px;
-  margin-left: 10px;
-  grid-template-columns: 60px 60px;
-  grid-template-rows: 60px 60px 60px 60px;
+  margin-top: 1.25rem;
+  margin-left: 0.625rem;
+  grid-template-columns: 3.75rem 3.75rem;
+  grid-template-rows: 3.75rem 3.75rem 3.75rem 3.75rem;
 
   @media screen and (max-width: 768px) {
-    padding-top: 20px;
-    grid-template-columns: 100px 100px 100px 100px;
+    padding-top: 1.25rem;
+    grid-template-columns: 6.25rem 6.25rem 6.25rem 6.25rem;
   }
 `

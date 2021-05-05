@@ -34,6 +34,7 @@ const About = (props) => {
         </ValuesWrapper>
 
         <AboutDivider />
+        
         <BioWrapper>
           <BioImage src={Profile} alt='hyper-squirrel' />
           <BioP>Hi there! I'm James, a self-taught developer who's dabbled in sales, restaurant server, and tech support. I aim to create win-win experiences with my combo of tech and comnmunication skills.
