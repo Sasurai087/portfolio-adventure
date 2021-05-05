@@ -20,7 +20,7 @@ function App() {
       <Navbar toggle={toggle} />
       <Hero />
       <Projects />
-      {/* <About /> */}
+      <About />
       <Contact />
       <Footer />
     </>

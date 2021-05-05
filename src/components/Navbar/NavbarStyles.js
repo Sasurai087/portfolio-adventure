@@ -5,14 +5,18 @@ import {Bars} from "@styled-icons/fa-solid/Bars"
 
 
 export const NavbarStyled = styled.nav`
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  background: ${({scrollNav}) => (scrollNav ? '#000':'transparent')};
   height: 80px;
+  margin-top: -80px;
   display: flex;
   justify-content: center;
-  font-size: 1.2rem;
+  align-items: center;
+  font-size: 1.5rem;
   position: sticky;
   top: 0;
-  z-index: 900;
+  z-index: 10;
+  font-weight: bold;
+  transition: 0.6s all ease;
 `;
 
 export const NavbarContainer = styled.div`
@@ -93,7 +97,6 @@ export const NavbarLinks = styled(Link)`
 
   &:hover {
     border-bottom: 4px solid #fff;
-    transition: all 0.2s ease-out;
   }
 
   @media screen and (max-width: 768px) {

@@ -1,117 +1,67 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-import './About.css'
 import Profile from '../../images/profile.png'
+import { AboutContainer, AboutH1, ValuesH1, ValuesCard, AboutStyled, ValuesWrapper, ValuesH2, ValuesP, AboutDivider, BioWrapper, BioImage, BioP, BioSpan, SkillsWrapper, SkillsH1, SkillsIcons } from './AboutStyles'
+import {LightBulb} from '@styled-icons/heroicons-outline/LightBulb'
+import {LightningCharge} from '@styled-icons/bootstrap/LightningCharge'
+import {MobileFriendly} from '@styled-icons/material-outlined/MobileFriendly'
+import {ReactLogo, JsSquare, Html5, Css3, Github, Node, Bootstrap, Python} from '@styled-icons/fa-brands'
 
 const About = (props) => {
   return (
-    <section id='section3' className='about'>
-      <h1>ABOUT</h1>
-      <div className='about-container flex'>
-          <div className='about-points-wrap flex row'>
-            <div className='about-points flex'>
-              <i class="fab fa-medapps"></i>
-              <div class='bold'>Intuitive</div>
-              <p>Delivering a user-friendly experience is my priority.</p>
-            </div>
+    <AboutStyled id='section3'>
+      <AboutH1>ABOUT</AboutH1>
+      <AboutContainer>
+        <ValuesH1>Values</ValuesH1>
+        <ValuesWrapper>
+          <ValuesCard>
+            <LightBulb size='100' />
+            <ValuesH2>Intuitive</ValuesH2>
+            <ValuesP>User-friendly experiences are my priority</ValuesP>
+          </ValuesCard>
 
-            <div className='about-points flex'>
-              <i class="fas fa-bolt" />
-              <div class='bold'>Concise</div>
-              <p>I strive for clear and efficient creation and communication.</p>
-            </div>
+          <ValuesCard>
+            <LightningCharge size='100' />
+            <ValuesH2>Concise</ValuesH2>
+            <ValuesP>Efficient apps with clear documentation</ValuesP>
+          </ValuesCard>
 
-            <div className='about-points flex'>
-              <i class="fas fa-mobile-alt" />
-              <div class='bold'>Efficient</div>
-              <p></p>
-            </div>
-          </div>
-          <div className='bar'></div>
+          <ValuesCard>
+            <MobileFriendly size='100' />
+            <ValuesH2>Efficient</ValuesH2>
+            <ValuesP>Applications built with mobile users in mind</ValuesP>
+          </ValuesCard>
+        </ValuesWrapper>
 
-          <h1>Skills</h1>
-          <div className='about-info flex row'>
-                  <i class="fab fa-react fa-5x"/>
-                  <i class="fab fa-js-square" /> 
-                  <i class="fab fa-html5"/>
-                  <i class="fab fa-css3"/>
-                  <i class="fab fa-github"/>
-                  <i class="fab fa-node" />
-                  <i class="fab fa-bootstrap"/>
-                  <i class="fab fa-python"/>
-          </div>
-
-
-          <div className='about-info flex row'>
-            <div className='about-skills row'>
-              
-
-              <div className='about-bio'>
-                <img src={Profile} alt='hyper-squirrel' />
-                <p>Hi there! <br />
-                  I'm James, a self-taught front-end developer who's dabbled in sales, restaurant server, and tech support roles. Whether it be in my personal or professional life, I aim to create positive win-win experiences for all.<br />
-                  <br />
-                  I also love playing and teaching board games of all kinds, 
-                  with Terraforming Mars being my latest frontier.<br />
-                  <br />
-                  Think I might be a good fit for your team?<br />
-                  Take a look at <span className='about-highlight'>my resume</span>, or 
-                  <Link to='section4' spy={true} smooth={true} duration={1000}>
-                    <span className='about-highlight'> send me a message!</span>
-                  </Link>
-                </p>
-              </div>
-            </div>
-          </div>
-    
-
-      </div>
-    </section>
+        <AboutDivider />
+        <BioWrapper>
+          <BioImage src={Profile} alt='hyper-squirrel' />
+          <BioP>Hi there! I'm James, a self-taught developer who's dabbled in sales, restaurant server, and tech support. I aim to create win-win experiences with my combo of tech and comnmunication skills.
+            <br /><br />
+            I also love playing and teaching board games of all kinds. I recently played Cubitos, a racing game of luck and strategy involving dice drafting.<br /><br />
+            Think I might be a good fit for your team?<br />
+            Check out <BioSpan>my resume</BioSpan>, or 
+            <Link to='section4' spy={true} smooth={true} duration={1000}>
+              <BioSpan> send me a message!</BioSpan>
+            </Link>
+          </BioP>
+          <SkillsWrapper>
+            <SkillsH1>Skills</SkillsH1>
+            <SkillsIcons>
+              <ReactLogo size='50' />
+              <JsSquare size='50' />
+              <Html5 size='50' />
+              <Css3 size='50' />
+              <Github size='50' />
+              <Node size='50' />
+              <Bootstrap size='50' />
+              <Python size='50' />
+            </SkillsIcons>
+          </SkillsWrapper>
+        </BioWrapper>
+      </AboutContainer>
+    </AboutStyled>
   )
 }
 
 export default About
-
-//Previous skills section
-    // {/* <h1>Skills</h1>
-    //   <div className='about-icons'>
-    //       <i class="fab fa-react fa-5x"/> 
-    //       <span>React</span>
-    //   </div>
-    //   <div className='about-icons'>
-    //     <i class="fab fa-js-square" /> 
-    //     <span>Javascript</span>
-    //   </div>
-
-    //   <div className='about-icons'>
-    //     <i class="fab fa-html5"/>
-    //     <span>HTML</span>
-    //   </div>
-
-    //   <div className='about-icons'>
-    //   <i class="fab fa-css3"/>
-    //   <span>CSS</span>
-    //   </div>
-
-
-    //   <div className='about-icons'>
-    //     <i class="fab fa-github"/>
-    //     <span>Github</span>
-    //   </div>
-
-
-    //   <div className='about-icons'>
-    //     <i class="fab fa-node" />
-    //     <span>Node</span>
-    //   </div>
-
-    //   <div className='about-icons'>
-    //     <i class="fab fa-bootstrap"/>
-    //     <span>Bootstrap4</span>
-    //   </div>
-
-    //   <div className='about-icons'>
-    //     <i class="fab fa-python"/>
-    //     <span>Python</span>
-    //   </div>
-    //   </div> */}
