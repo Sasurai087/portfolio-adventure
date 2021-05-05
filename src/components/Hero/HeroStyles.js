@@ -21,41 +21,41 @@ export const HeroH1 = styled.h1`
   color: #fff;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
-  margin-top: -100px;
+  margin-top: -6.25rem;
   color: rgb(16, 194, 194);
-  font-size: 80px;
+  font-size: 5rem;
 
   @media screen and (max-width: 768px) {
-    font-size: 50px;
-    margin-top: -150px
+    font-size: 3.125rem;
+    margin-top: -9.375rem;
   }
 
   @media screen and (max-width: 480px) {
-    font-size: 50px;
-    margin-top: -100px
+    font-size: 3.125rem;
+    margin-top: -6.25rem;
   }
 `;
 
 export const HeroP = styled.p`
-  margin-top: 8px;
+  margin-top: 0.5rem;
   color: #fff;
-  font-size: 60px;
+  font-size: 3.75rem;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
   @media screen and (max-width: 768px) {
-    font-size: 35px;
+    font-size: 2.1875rem;
   }
 
   @media screen and (max-width: 480px) {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 `;
 
 export const HeroButton = styled.div`
-  margin-top: 32px;
+  margin-top: 2rem;
 `;
 
 export const HeroButtonArrow = styled(ArrowRight)`
-  margin-left: 8px;
-  margin-bottom: 2px;
+  margin-left: 0.5rem;
+  margin-bottom: 0.125rem;
 `

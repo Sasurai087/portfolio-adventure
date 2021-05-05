@@ -71,17 +71,17 @@ export const SideBtnWrap = styled.div`
 `;
 
 export const SideBtn = styled(LinkR)`
-  border-radius: 50px;
+  border-radius: 3.125rem;
   background: #01bf71;
   white-space: nowrap;
-  padding: 16px 64px;
+  padding: 1rem 4rem;
   color: #010606;
   border:none;
   outline: none;
   cursor: pointer;
   transition: all 0.2 ease-ease-in-out;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1rem;
 
   &:hover{
     transition: all 0.2s ease-in-out;

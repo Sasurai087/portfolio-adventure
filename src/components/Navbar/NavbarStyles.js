@@ -6,8 +6,8 @@ import {Bars} from "@styled-icons/fa-solid/Bars"
 
 export const NavbarStyled = styled.nav`
   background: ${({scrollNav}) => (scrollNav ? '#000':'transparent')};
-  height: 80px;
-  margin-top: -80px;
+  height: 5rem;
+  margin-top: -5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,14 +22,14 @@ export const NavbarStyled = styled.nav`
 export const NavbarContainer = styled.div`
   display: flex;
   align-items: center;
-  height: 80px;
-  max-width: 1500px;
+  height: 5rem;
+  max-width: 93.75rem;
 `;
 
 export const NavbarLogo = styled(Link)`
   color: #fff;
   justify-self: start;
-  margin-left: 10px;
+  margin-left: 0.625rem;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -45,7 +45,7 @@ export const NavbarBrand = styled(ReactLogo)`
 export const NavbarMenu = styled.ul`
   display: grid;
   grid-template-columns: repeat(4, auto);
-  grid-gap: 10px;
+  grid-gap: 0.625rem;
   list-style: none;
   text-align: center;
   width: 60vw;
@@ -65,7 +65,7 @@ export const NavbarMenu = styled.ul`
     flex-direction: column;
     width: 100%;
     position: absolute;
-    top: 80px;
+    top: 5rem;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;

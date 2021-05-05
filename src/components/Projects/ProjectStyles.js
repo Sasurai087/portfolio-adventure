@@ -35,23 +35,23 @@ export const ProjectsContainer = styled.div`
   /* Only 1 item showing on smaller screens */
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
-    padding: 0 20px;
+    padding: 0 1.25rem;
   }
 `;
 
 //CSS for individual items
 export const ItemStyled = styled.div`
   margin: 0 0.5rem;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 `;
 
 export const ItemCard = styled(Link)`
 display: flex;
 flex-flow: column;
-box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
--webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-border-radius: 10px;
+box-shadow: 0 0.375rem 1.25rem rgba(56, 125, 255, 0.17);
+-webkit-filter: drop-shadow(0 0.375rem 1.25rem rgba(56, 125, 255, 0.017));
+filter: drop-shadow(0 0.375rem 1.25rem rgba(56, 125, 255, 0.017));
+border-radius: 0.625rem;
 overflow: hidden;
 text-decoration: none;
 `;
@@ -66,8 +66,8 @@ export const ItemLabel = styled.figure`
     content: attr(data-category);
     position: absolute;
     bottom: 0;
-    margin-left: 10px;
-    padding: 6px 8px;
+    margin-left: 0.625rem;
+    padding: 0.375rem 0.5rem;
     font-size: .75rem;
     font-weight: 700;
     color: #fff;
@@ -95,13 +95,13 @@ export const ItemImage = styled.img`
 `;
 
 export const ItemInfo = styled.div`
-  padding: 20px 30px 30px;
+  padding: 1.25rem 1.875rem 1.875rem;
 `;
 
 export const ItemH4 = styled.h4`
   color: #1b8bb8;
   font-size: 1.3rem;
-  line-height: 24px;
+  line-height: 1.5rem;
 `;
 
 export const ItemH5 = styled.h5`

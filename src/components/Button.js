@@ -3,7 +3,7 @@ import {Link} from 'react-scroll';
 
 export const Button = styled(Link)`
   background:transparent;
-  padding: 12px 30px;
+  padding: 0.75rem 1.875rem;
   outline: #1c1b1b solid 0.1rem;
   color: #fff;
   font-size: 1.1rem;
