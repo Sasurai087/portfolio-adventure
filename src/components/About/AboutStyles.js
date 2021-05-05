@@ -122,18 +122,14 @@ export const BioWrapper = styled.div`
 export const BioImage = styled.img`
   border: 5px solid rgba(0, 255, 234, 0.575);
   border-radius: 5rem;
-  width: 70%;
-  height: auto;
+  width: 24rem;
   @media screen and (max-width: 768px) {
    width:100%;
   }
 `
 export const BioP = styled.p`
   text-align: left;
-  flex-direction: row;
-  -webkit-box-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
   align-items: center;
   font-size: 1.2rem;
 `
