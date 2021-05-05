@@ -15,6 +15,8 @@ export const HeroVideo = styled.video`
   object-fit: cover;
   position: fixed;
   z-index: -1;
+  height: 100%;
+  width: 100%;
 `
 
 export const HeroH1 = styled.h1`
