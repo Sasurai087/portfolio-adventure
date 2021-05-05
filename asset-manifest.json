@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.2bb9e604.chunk.css",
-    "main.js": "/static/js/main.16d9fabc.chunk.js",
-    "main.js.map": "/static/js/main.16d9fabc.chunk.js.map",
+    "main.css": "/static/css/main.4982bbea.chunk.css",
+    "main.js": "/static/js/main.b1bbc82e.chunk.js",
+    "main.js.map": "/static/js/main.b1bbc82e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.adbb94d4.js",
     "runtime-main.js.map": "/static/js/runtime-main.adbb94d4.js.map",
     "static/js/2.db81a5ac.chunk.js": "/static/js/2.db81a5ac.chunk.js",
     "static/js/2.db81a5ac.chunk.js.map": "/static/js/2.db81a5ac.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.2bb9e604.chunk.css.map": "/static/css/main.2bb9e604.chunk.css.map",
+    "static/css/main.4982bbea.chunk.css.map": "/static/css/main.4982bbea.chunk.css.map",
     "static/js/2.db81a5ac.chunk.js.LICENSE.txt": "/static/js/2.db81a5ac.chunk.js.LICENSE.txt",
     "static/media/prj-budgety.3c6fee81.png": "/static/media/prj-budgety.3c6fee81.png",
     "static/media/prj-color.3122ab60.jpg": "/static/media/prj-color.3122ab60.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.adbb94d4.js",
     "static/js/2.db81a5ac.chunk.js",
-    "static/css/main.2bb9e604.chunk.css",
-    "static/js/main.16d9fabc.chunk.js"
+    "static/css/main.4982bbea.chunk.css",
+    "static/js/main.b1bbc82e.chunk.js"
   ]
 }
