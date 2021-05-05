@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio-adventure/static/css/main.d472fcc2.chunk.css",
-    "main.js": "/portfolio-adventure/static/js/main.e07f1d4a.chunk.js",
-    "main.js.map": "/portfolio-adventure/static/js/main.e07f1d4a.chunk.js.map",
-    "runtime-main.js": "/portfolio-adventure/static/js/runtime-main.a61f843c.js",
-    "runtime-main.js.map": "/portfolio-adventure/static/js/runtime-main.a61f843c.js.map",
-    "static/js/2.8e5d9e1e.chunk.js": "/portfolio-adventure/static/js/2.8e5d9e1e.chunk.js",
-    "static/js/2.8e5d9e1e.chunk.js.map": "/portfolio-adventure/static/js/2.8e5d9e1e.chunk.js.map",
-    "index.html": "/portfolio-adventure/index.html",
-    "static/css/main.d472fcc2.chunk.css.map": "/portfolio-adventure/static/css/main.d472fcc2.chunk.css.map",
-    "static/js/2.8e5d9e1e.chunk.js.LICENSE.txt": "/portfolio-adventure/static/js/2.8e5d9e1e.chunk.js.LICENSE.txt",
-    "static/media/prj-color.3122ab60.jpg": "/portfolio-adventure/static/media/prj-color.3122ab60.jpg",
-    "static/media/prj-dadjokes.7479d49b.jpg": "/portfolio-adventure/static/media/prj-dadjokes.7479d49b.jpg",
-    "static/media/prj-dice3.78063012.jpg": "/portfolio-adventure/static/media/prj-dice3.78063012.jpg",
-    "static/media/prj-forkify.9952365f.jpg": "/portfolio-adventure/static/media/prj-forkify.9952365f.jpg",
-    "static/media/prj-movie.0527069f.jpg": "/portfolio-adventure/static/media/prj-movie.0527069f.jpg",
-    "static/media/profile.563ab49e.png": "/portfolio-adventure/static/media/profile.563ab49e.png",
-    "static/media/video-1.59e75226.mp4": "/portfolio-adventure/static/media/video-1.59e75226.mp4"
+    "main.css": "/static/css/main.4f9a5662.chunk.css",
+    "main.js": "/static/js/main.80dcf5f0.chunk.js",
+    "main.js.map": "/static/js/main.80dcf5f0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.adbb94d4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.adbb94d4.js.map",
+    "static/js/2.4d7acb10.chunk.js": "/static/js/2.4d7acb10.chunk.js",
+    "static/js/2.4d7acb10.chunk.js.map": "/static/js/2.4d7acb10.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.4f9a5662.chunk.css.map": "/static/css/main.4f9a5662.chunk.css.map",
+    "static/js/2.4d7acb10.chunk.js.LICENSE.txt": "/static/js/2.4d7acb10.chunk.js.LICENSE.txt",
+    "static/media/prj-budgety.3c6fee81.png": "/static/media/prj-budgety.3c6fee81.png",
+    "static/media/prj-color.3122ab60.jpg": "/static/media/prj-color.3122ab60.jpg",
+    "static/media/prj-dadjokes.7479d49b.jpg": "/static/media/prj-dadjokes.7479d49b.jpg",
+    "static/media/prj-dice3.78063012.jpg": "/static/media/prj-dice3.78063012.jpg",
+    "static/media/prj-forkify.9952365f.jpg": "/static/media/prj-forkify.9952365f.jpg",
+    "static/media/prj-movie.0527069f.jpg": "/static/media/prj-movie.0527069f.jpg",
+    "static/media/profile.563ab49e.png": "/static/media/profile.563ab49e.png",
+    "static/media/video.59e75226.mp4": "/static/media/video.59e75226.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.a61f843c.js",
-    "static/js/2.8e5d9e1e.chunk.js",
-    "static/css/main.d472fcc2.chunk.css",
-    "static/js/main.e07f1d4a.chunk.js"
+    "static/js/runtime-main.adbb94d4.js",
+    "static/js/2.4d7acb10.chunk.js",
+    "static/css/main.4f9a5662.chunk.css",
+    "static/js/main.80dcf5f0.chunk.js"
   ]
 }
